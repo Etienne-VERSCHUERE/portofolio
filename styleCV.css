@@ -1,0 +1,88 @@
+@font-face { 
+    font-family: 'Source Code Pro';
+    src:url('police/SourceCodePro-VariableFont_wght.ttf') format('woff2');
+    font-weight:inherit 400;
+    font-style: normal
+  }
+  
+body {
+      font-family:'Source Code Pro';
+      color:white;
+      background: rgb(2,0,36);
+      
+}
+
+.nom {
+  text-align: center;
+  font-size: 60px;
+
+}    
+.imageTest {
+  background-image:url('image/fxVE.gif');
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.5;
+    width: 100vw;
+    position: absolute;
+    background-size: cover;
+}
+
+.lien {
+       border: 5px solid #5f5d5d;
+       border-radius:5px;
+       background-color: aliceblue;
+       box-shadow: 10px 10px 10px #363535;
+}
+
+.section {
+  width: 45;
+}
+.conteneur {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteneur1 {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.competences {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #5f5d5d;
+  border-radius: 5px;
+  width: fit-content;
+  margin: auto;
+  background-color: rgba(240, 255, 255, 0.28);
+
+} 
+.titre3 {
+  text-align: center;
+}
+
+.titre1, .titre2, .titre3 {
+  text-decoration: underline;
+}
+.accroche {
+          border:10px solid #5f5d5d;
+          border-radius:10px; 
+          box-shadow:10px 10px 10px #363535;
+          text-align: center; 
+          color: white;
+          background-clip: text;
+			    padding-bottom: .2rem;
+      
+        }
+
+.github {
+  border:5px solid #5f5d5d;
+  border-radius:10px; 
+  box-shadow:10px 10px 10px #363535
+  
+
+} 
+
+
+
